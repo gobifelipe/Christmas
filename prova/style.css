@@ -1,0 +1,51 @@
+body{
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: 
+    "header header header" 
+    "aside main main" 
+    "footer footer footer";
+    background: url(https://st.depositphotos.com/1001069/3037/i/600/depositphotos_30372423-stock-photo-abstract-christmas-background.jpg);
+    background-size: 100%;
+    margin-left:100px;
+    margin-right: 100px;
+    background-repeat: no-repeat;
+  
+}
+
+.o-header{
+    grid-area: header;
+    padding: 1.5rem;
+    text-align-last: center;
+    color: white;
+    font-size: 30px;
+    animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+.o-main{
+    align-content: auto;
+    color:white;
+    padding: 1.5rem;
+}
+
+.o-aside{
+    align-content: auto;
+}
+
+h1 {
+  color: white;
+}
+
+h4 {
+  color: white;
+  text-align: justify;
+  font-weight: 100;
+  margin-top: 50;
+}

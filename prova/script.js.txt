@@ -1,0 +1,8 @@
+var nome = prompt("Digite seu nome: ");
+
+alert ('Bem vindo ' +nome+ ', escreva sua cartinha para o Noel.')
+
+
+function enviar(){
+alert("Carta enviada com sucesso.")
+}
